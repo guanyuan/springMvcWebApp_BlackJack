@@ -16,18 +16,49 @@
     <script type="text/javascript">
 
     $(document).ready(function(){
-      $("#playerStart").click(function(){
-      $(".backCards").show();
-      });
+
+    var imgPrefix = '&lt img src="&lt c:url value="/resources/img';
+
+    var imgSuffix = '" /&gt" style="width: 100px; margin-left: 10px;"/&gt';
+
+    var cardPointArray = "${shuffledCardsPoints}";
+    var cardNameArray = "${shuffledCardsNames}";
+
+    var index = 0;
+    var playerPoints = 0;
+    var hostPoints = 0;
+
+
+     $("#playerStart").click(function(){
+               $(".backCards").show();
+               $("#debugWindow").append(cardPointArray[0]);
+               $("#debugWindow").append(cardPointArray[1]);
+               $("#debugWindow").append(cardPointArray[2]);
+               $("#debugWindow").append(cardPointArray[3]);
+        playerPoints += (cardPointArray[0] + cardPointArray[1]);
+          hostPoints +=  (cardPointArray[2] + cardPointArray[3]);
+          index += 4;
+          $("#playerScore").text(playerPoints);
+          $("#hostScore").text(hostPoints);
+          $("#playerStart").attr("disabled", true);
+           });
 
       $("#playerHit").click(function(){
-
             $("#playerCards").append('<img src="<c:url value="/resources/img/back.jpg" />" style="width: 100px; margin-left: 10px;"/>');
+
       });
 
       $("#hostHit").click(function(){
                   $("#hostCards").append('<img src="<c:url value="/resources/img/back.jpg" />" style="width: 100px; margin-left: 10px;"/>');
             });
+
+      $("#playerStand").click(function(){
+               $("#playerHit").attr("disabled", true);
+      });
+
+      $("#hostStand").click(function(){
+              $("#hostHit").attr("disabled", true);
+      });
     });
     </script>
 
@@ -87,11 +118,11 @@
                         <p><font size="2">Player</font></p>
 
                         <div class="text-center">
-                            <p><font size="6" color="white"><strong><span  id="playerScore">20</span></strong></font></p>
+                            <p><font size="6"><strong><span  id="playerScore"></span></strong></font></p>
                         </div>
                         <p><font size="2">Host</font></p>
                         <div class="text-center">
-                            <p><font size="6" color="white"><strong><span  id="hostScore">16</span></strong></font></p>
+                            <p><font size="6"><strong><span  id="hostScore"></span></strong></font></p>
                         </div>
 
 
@@ -139,6 +170,9 @@
         </div>
 
     </div>
+
+    <div id="debugWindow"> </div>
+    <div id="replayDiv"></div>
 </div>
 
 </body>

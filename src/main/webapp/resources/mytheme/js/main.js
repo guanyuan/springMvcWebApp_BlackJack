@@ -1,10 +1,11 @@
 $(document).ready(function(){
 
-    var imgPrefix = '<img src="<c:url value="/resources/img/';
-    var imgSuffix = '" />" style="width: 100px; margin-left: 10px;"/>';
+    var imgPrefix = '&lt img src="&lt c:url value="/resources/img';
 
-    var cardPointArray = ${shuffledCardsPoints};
-    var cardNameArray = ${shuffledCardsNames};
+    var imgSuffix = '" /&gt" style="width: 100px; margin-left: 10px;"/&gt';
+
+    var cardPointArray = "${shuffledCardsPoints}";
+    var cardNameArray = "${shuffledCardsNames}";
 
     var index = 0;
     var playerPoints = 0;
@@ -12,14 +13,15 @@ $(document).ready(function(){
 
       $("#playerStart").click(function(){
           $(".backCards").show();
-          playerPoints += (cardPointArray.get(0)) + cardPointArray.get(1));
-          hostPoints +=  (cardPointArray.get(2)) + cardPointArray.get(3));
+          playerPoints += (cardPointArray[0] + cardPointArray[1]);
+          hostPoints +=  (cardPointArray[2] + cardPointArray[3]);
           index += 4;
           $("#playerScore").text(playerPoints);
           $("#hostScore").text(hostPoints);
       });
 
       $("#playerHit").click(function(){
+           //$("#playerCards").append('<img src="<c:url value="/resources/img/back.jpg" />" style="width: 100px; margin-left: 10px;"/>');
             var imgSrc = imgPrefix + cardNameArray.get(index) + imgSuffix;
             index++;
             $("#playerCards").append(imgSrc);
