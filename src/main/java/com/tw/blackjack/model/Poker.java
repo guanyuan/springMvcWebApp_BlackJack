@@ -1,5 +1,7 @@
 package com.tw.blackjack.model;
 
+import com.tw.blackjack.service.CardUtility;
+
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
@@ -14,15 +16,15 @@ public class Poker {
         }
     }
 
-    public Card takeCard(int index) {
-        return cardList.get(index);
-    }
-
-    public void shuffleCards() {
+    public void shuffle() {
         Collections.shuffle(cardList);
     }
 
-    public List<Card> getAllCards() {
+    public Card takeOneCard(int idx) {
+        return cardList.get(idx);
+    }
+
+    public List<Card> getPoker() {
         return cardList;
     }
 }

@@ -1,5 +1,7 @@
 package com.tw.blackjack.model;
 
+import com.tw.blackjack.service.CardUtility;
+
 public class Card {
 
     private final CardUtility cardUtility = new CardUtility();

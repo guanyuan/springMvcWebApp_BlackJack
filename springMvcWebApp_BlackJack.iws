@@ -1,50 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/welcome.jsp" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="95d0932c-d665-4564-9da9-5683789bb0ce" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/tw/blackjack/model/CardTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/tw/blackjack/model/CardUtility.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/tw/blackjack/model/Poker.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/tw/blackjack/controller/PokerControllerTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/tw/blackjack/model/PokerInitTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/tw/blackjack/model/PokerShuffleTest.java" />
-      <change type="DELETED" beforePath="E:\TW_workSpace\homework6_winter_Holiday_BlackJack\springMvcWebApp_BlackJack\src\main\java\com\tw\blackjack\controller\GameController.java" afterPath="" />
-      <change type="DELETED" beforePath="E:\TW_workSpace\homework6_winter_Holiday_BlackJack\springMvcWebApp_BlackJack\src\main\java\com\tw\blackjack\model\ShuffledCards.java" afterPath="" />
-      <change type="DELETED" beforePath="E:\TW_workSpace\homework6_winter_Holiday_BlackJack\springMvcWebApp_BlackJack\src\main\java\com\tw\blackjack\service\Shuffler.java" afterPath="" />
-      <change type="DELETED" beforePath="E:\TW_workSpace\homework6_winter_Holiday_BlackJack\springMvcWebApp_BlackJack\src\main\webapp\WEB-INF\pages\gamePage.jsp" afterPath="" />
-      <change type="DELETED" beforePath="E:\TW_workSpace\homework6_winter_Holiday_BlackJack\springMvcWebApp_BlackJack\src\main\webapp\WEB-INF\pages\welcome2.jsp" afterPath="" />
-      <change type="DELETED" beforePath="E:\TW_workSpace\homework6_winter_Holiday_BlackJack\springMvcWebApp_BlackJack\src\main\webapp\WEB-INF\pages\welcome3.jsp" afterPath="" />
-      <change type="DELETED" beforePath="E:\TW_workSpace\homework6_winter_Holiday_BlackJack\springMvcWebApp_BlackJack\src\test\java\com\tw\blackjack\service\ShufferTest.java" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/tw/blackjack/service/BlackJack.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/tw/blackjack/model/BlackJackTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/tw/blackjack/model/Player.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/tw/blackjack/model/PlayerTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/showFaceDownCards.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/tw/blackjack/model/Card.java" afterPath="$PROJECT_DIR$/src/main/java/com/tw/blackjack/model/Card.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/tw/blackjack/model/Poker.java" afterPath="$PROJECT_DIR$/src/main/java/com/tw/blackjack/model/Poker.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/tw/blackjack/controller/PokerController.java" afterPath="$PROJECT_DIR$/src/main/java/com/tw/blackjack/controller/PokerController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/tw/blackjack/controller/PokerControllerTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/tw/blackjack/controller/PokerControllerTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/resources/mytheme/js/main.js" afterPath="$PROJECT_DIR$/src/main/webapp/resources/mytheme/js/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springMvcWebApp_BlackJack.ipr" afterPath="$PROJECT_DIR$/springMvcWebApp_BlackJack.ipr" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/mvc-dispatcher-servlet.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/mvc-dispatcher-servlet.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springMvcWebApp_BlackJack.iws" afterPath="$PROJECT_DIR$/springMvcWebApp_BlackJack.iws" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/welcome.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/welcome.jsp" />
-      <change type="MOVED" beforePath="E:\TW_workSpace\homework6_winter_Holiday_BlackJack\springMvcWebApp_BlackJack\src\test\java\com\tw\blackjack\controller\GameControllerTest.java" afterPath="$PROJECT_DIR$/src/main/java/com/tw/blackjack/controller/PokerController.java" />
-      <change type="MOVED" beforePath="E:\TW_workSpace\homework6_winter_Holiday_BlackJack\springMvcWebApp_BlackJack\src\test\java\com\tw\blackjack\model\ShuffledCardsTest.java" afterPath="$PROJECT_DIR$/src/main/java/com/tw/blackjack/model/Card.java" />
+      <change type="MOVED" beforePath="E:\TW_workSpace\homework6_winter_Holiday_BlackJack\springMvcWebApp_BlackJack\src\main\java\com\tw\blackjack\model\CardUtility.java" afterPath="$PROJECT_DIR$/src/main/java/com/tw/blackjack/service/CardUtility.java" />
+      <change type="MOVED" beforePath="E:\TW_workSpace\homework6_winter_Holiday_BlackJack\springMvcWebApp_BlackJack\src\test\java\com\tw\blackjack\model\PokerInitTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/tw/blackjack/service/PokerInitTest.java" />
+      <change type="MOVED" beforePath="E:\TW_workSpace\homework6_winter_Holiday_BlackJack\springMvcWebApp_BlackJack\src\test\java\com\tw\blackjack\model\PokerShuffleTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/tw/blackjack/service/PokerShuffleTest.java" />
     </list>
     <ignored path="springMvcWebApp_BlackJack.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/mvc-dispatcher-servlet.xml" changelist="95d0932c-d665-4564-9da9-5683789bb0ce" time="1393037133811" ignored="false" />
+    <file path="/mvc-dispatcher-servlet.xml" changelist="95d0932c-d665-4564-9da9-5683789bb0ce" time="1397884380402" ignored="false" />
     <file path="/gamePage.jsp" changelist="95d0932c-d665-4564-9da9-5683789bb0ce" time="1393128591538" ignored="false" />
     <file path="/welcome.html" changelist="95d0932c-d665-4564-9da9-5683789bb0ce" time="1393128660174" ignored="false" />
-    <file path="/welcome.jsp" changelist="95d0932c-d665-4564-9da9-5683789bb0ce" time="1393659029795" ignored="false" />
+    <file path="/welcome.jsp" changelist="95d0932c-d665-4564-9da9-5683789bb0ce" time="1397883565375" ignored="false" />
     <file path="/GameController.java" changelist="95d0932c-d665-4564-9da9-5683789bb0ce" time="1393426742330" ignored="false" />
     <file path="/ShuffledCards.java" changelist="95d0932c-d665-4564-9da9-5683789bb0ce" time="1393426482762" ignored="false" />
     <file path="/Shuffler.java" changelist="95d0932c-d665-4564-9da9-5683789bb0ce" time="1393426434021" ignored="false" />
-    <file path="/main.js" changelist="95d0932c-d665-4564-9da9-5683789bb0ce" time="1393591556751" ignored="false" />
-    <file path="/Dummy.txt" changelist="95d0932c-d665-4564-9da9-5683789bb0ce" time="1393740355052" ignored="false" />
+    <file path="/main.js" changelist="95d0932c-d665-4564-9da9-5683789bb0ce" time="1397882890801" ignored="false" />
+    <file path="/Dummy.txt" changelist="95d0932c-d665-4564-9da9-5683789bb0ce" time="1398082447562" ignored="false" />
     <file path="/GameControllerTest.java" changelist="95d0932c-d665-4564-9da9-5683789bb0ce" time="1393659785370" ignored="false" />
     <file path="/CardTest.java" changelist="95d0932c-d665-4564-9da9-5683789bb0ce" time="1393745994459" ignored="false" />
-    <file path="/fragment.java" changelist="95d0932c-d665-4564-9da9-5683789bb0ce" time="1393754511180" ignored="false" />
+    <file path="/fragment.java" changelist="95d0932c-d665-4564-9da9-5683789bb0ce" time="1398062513536" ignored="false" />
     <file path="/Card.java" changelist="95d0932c-d665-4564-9da9-5683789bb0ce" time="1393746329716" ignored="false" />
-    <file path="/a.dummy" changelist="95d0932c-d665-4564-9da9-5683789bb0ce" time="1393664492845" ignored="false" />
+    <file path="/a.dummy" changelist="95d0932c-d665-4564-9da9-5683789bb0ce" time="1397891128493" ignored="false" />
     <file path="/PokerTest.java" changelist="95d0932c-d665-4564-9da9-5683789bb0ce" time="1393752673815" ignored="false" />
-    <file path="/Poker.java" changelist="95d0932c-d665-4564-9da9-5683789bb0ce" time="1393755374666" ignored="false" />
+    <file path="/Poker.java" changelist="95d0932c-d665-4564-9da9-5683789bb0ce" time="1398049338046" ignored="false" />
     <file path="/CardUtility.java" changelist="95d0932c-d665-4564-9da9-5683789bb0ce" time="1393750232516" ignored="false" />
     <file path="/PokerShufferTest.java" changelist="95d0932c-d665-4564-9da9-5683789bb0ce" time="1393754160929" ignored="false" />
-    <file path="/PokerShuffleTest.java" changelist="95d0932c-d665-4564-9da9-5683789bb0ce" time="1393753804404" ignored="false" />
-    <file path="/PokerControllerTest.java" changelist="95d0932c-d665-4564-9da9-5683789bb0ce" time="1393760681282" ignored="false" />
-    <file path="/PokerController.java" changelist="95d0932c-d665-4564-9da9-5683789bb0ce" time="1393760451570" ignored="false" />
+    <file path="/PokerShuffleTest.java" changelist="95d0932c-d665-4564-9da9-5683789bb0ce" time="1398047565712" ignored="false" />
+    <file path="/PokerControllerTest.java" changelist="95d0932c-d665-4564-9da9-5683789bb0ce" time="1398085403861" ignored="false" />
+    <file path="/PokerController.java" changelist="95d0932c-d665-4564-9da9-5683789bb0ce" time="1398062617760" ignored="false" />
+    <file path="/web.xml" changelist="95d0932c-d665-4564-9da9-5683789bb0ce" time="1397884368659" ignored="false" />
+    <file path="/PokerUtility.java" changelist="95d0932c-d665-4564-9da9-5683789bb0ce" time="1398046497854" ignored="false" />
+    <file path="/BlackJack.java" changelist="95d0932c-d665-4564-9da9-5683789bb0ce" time="1398084695142" ignored="false" />
+    <file path="/Player.java" changelist="95d0932c-d665-4564-9da9-5683789bb0ce" time="1398063713466" ignored="false" />
+    <file path="/Host.java" changelist="95d0932c-d665-4564-9da9-5683789bb0ce" time="1398058638011" ignored="false" />
+    <file path="/showFaceDownCards.jsp" changelist="95d0932c-d665-4564-9da9-5683789bb0ce" time="1398064445864" ignored="false" />
+    <file path="/getFaceDownCardsTest.java" changelist="95d0932c-d665-4564-9da9-5683789bb0ce" time="1398084441221" ignored="false" />
+    <file path="/BlackJackTest.java" changelist="95d0932c-d665-4564-9da9-5683789bb0ce" time="1398084712976" ignored="false" />
+    <file path="/PlayerTest.java" changelist="95d0932c-d665-4564-9da9-5683789bb0ce" time="1398085096121" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,33 +114,87 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="PokerControllerTest.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/tw/blackjack/controller/PokerControllerTest.java">
+      <file leaf-file-name="PokerController.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/tw/blackjack/controller/PokerController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="51" selection-start="831" selection-end="831" vertical-scroll-proportion="0.5881007">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Poker.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/tw/blackjack/model/Poker.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="37" selection-start="616" selection-end="616" vertical-scroll-proportion="0.0">
+            <state line="25" column="28" selection-start="1150" selection-end="1150" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PokerController.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/tw/blackjack/controller/PokerController.java">
+      <file leaf-file-name="BlackJack.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/tw/blackjack/service/BlackJack.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="0" selection-start="347" selection-end="347" vertical-scroll-proportion="0.0">
+            <state line="24" column="20" selection-start="540" selection-end="540" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PlayerTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/tw/blackjack/model/PlayerTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="0" selection-start="154" selection-end="154" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BlackJackTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/tw/blackjack/model/BlackJackTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="27" selection-start="162" selection-end="166" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="welcome.jsp" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/welcome.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="111" column="0" selection-start="4568" selection-end="4568" vertical-scroll-proportion="0.59383756">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="showFaceDownCards.jsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/showFaceDownCards.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="107" column="0" selection-start="4335" selection-end="4335" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PokerControllerTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/tw/blackjack/controller/PokerControllerTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="19" column="58" selection-start="717" selection-end="717" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Player.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/tw/blackjack/model/Player.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="24" column="16" selection-start="440" selection-end="440" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Card.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/tw/blackjack/model/Card.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="11" selection-start="237" selection-end="237" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -154,22 +217,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/webapp/resources/mytheme/js/main.js" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/welcome.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/com/tw/blackjack/model/ShuffledCards.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/tw/blackjack/service/Shuffler.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/tw/blackjack/model/CardTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/tw/blackjack/model/Card.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/tw/blackjack/model/CardUtility.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/tw/blackjack/model/PokerTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/tw/blackjack/model/PokerInitTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/tw/blackjack/model/PokerShufferTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/tw/blackjack/service/PokerUtility.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/tw/blackjack/model/PokerShuffleTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/tw/blackjack/controller/GameControllerTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/tw/blackjack/model/Poker.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/tw/blackjack/controller/PokerControllerTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/tw/blackjack/model/Host.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/tw/blackjack/service/getFaceDownCardsTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/tw/blackjack/controller/PokerController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/tw/blackjack/controller/GameController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/tw/blackjack/model/Player.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/tw/blackjack/service/BlackJack.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/tw/blackjack/model/PlayerTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/tw/blackjack/controller/getFaceDownCardsTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/tw/blackjack/controller/PokerControllerTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/tw/blackjack/model/BlackJackTest.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/showFaceDownCards.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/welcome.jsp" />
       </list>
     </option>
   </component>
@@ -178,7 +241,7 @@
     <option name="LAST_EDITED_TAB_NAME" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="width" value="1280" />
+    <option name="width" value="1276" />
     <option name="height" value="768" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -223,7 +286,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -239,6 +301,36 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="springMvcWebApp_BlackJack" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="springMvcWebApp_BlackJack" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="springMvcWebApp_BlackJack" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blackjack" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="service" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -424,6 +516,36 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="springMvcWebApp_BlackJack" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="springMvcWebApp_BlackJack" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blackjack" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="model" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -461,6 +583,7 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -471,7 +594,7 @@
     <property name="recentsLimit" value="5" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
-    <property name="FullScreen" value="true" />
+    <property name="FullScreen" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="options.searchVisible" value="true" />
@@ -479,9 +602,17 @@
     <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\TW_workSpace\homework6_winter_Holiday_BlackJack\springMvcWebApp_BlackJack\src\main\webapp\WEB-INF\pages" />
+    </key>
     <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.tw.blackjack.controller" />
       <recent name="com.tw.blackjack.model" />
+      <recent name="com.tw.blackjack.service" />
+      <recent name="com.tw.blackjack.controller" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.tw.blackjack.controller" />
+      <recent name="com.tw.blackjack.service" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\TW_workSpace\homework6_winter_Holiday_BlackJack\springMvcWebApp_BlackJack\src\main\webapp\resources\mytheme\html" />
@@ -489,83 +620,14 @@
       <recent name="E:\TW_workSpace\homework6_winter_Holiday_BlackJack\springMvcWebApp_BlackJack\src\main\webapp\WEB-INF" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.PokerControllerTest">
-    <configuration default="false" name="CardTest" type="JUnit" factoryName="JUnit" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" />
-      <module name="springMvcWebApp_BlackJack" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.tw.blackjack.model" />
-      <option name="MAIN_CLASS_NAME" value="com.tw.blackjack.model.CardTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="PokerInitTest.should_be_club_ace_of_first_card" type="JUnit" factoryName="JUnit" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" />
-      <module name="springMvcWebApp_BlackJack" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.tw.blackjack.model" />
-      <option name="MAIN_CLASS_NAME" value="com.tw.blackjack.model.PokerInitTest" />
-      <option name="METHOD_NAME" value="should_be_club_ace_of_first_card" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="PokerInitTest" type="JUnit" factoryName="JUnit" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" />
-      <module name="springMvcWebApp_BlackJack" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.tw.blackjack.model" />
-      <option name="MAIN_CLASS_NAME" value="com.tw.blackjack.model.PokerInitTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.All in springMvcWebApp_BlackJack">
     <configuration default="false" name="PokerShuffleTest" type="JUnit" factoryName="JUnit" temporary="true">
       <extension name="coverage" enabled="false" merge="false" />
       <module name="springMvcWebApp_BlackJack" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.tw.blackjack.model" />
-      <option name="MAIN_CLASS_NAME" value="com.tw.blackjack.model.PokerShuffleTest" />
+      <option name="PACKAGE_NAME" value="com.tw.blackjack.service" />
+      <option name="MAIN_CLASS_NAME" value="com.tw.blackjack.service.PokerShuffleTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" />
@@ -591,6 +653,75 @@
       <option name="MAIN_CLASS_NAME" value="com.tw.blackjack.controller.PokerControllerTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="All in springMvcWebApp_BlackJack" type="JUnit" factoryName="JUnit" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" />
+      <module name="springMvcWebApp_BlackJack" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="package" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="PokerControllerTest.should_get_shuffled_poker" type="JUnit" factoryName="JUnit" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" />
+      <module name="springMvcWebApp_BlackJack" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.tw.blackjack.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.tw.blackjack.controller.PokerControllerTest" />
+      <option name="METHOD_NAME" value="should_get_shuffled_poker" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="PlayerTest.should_be_12_point_after_get_heart_2_and_diamond_King" type="JUnit" factoryName="JUnit" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" />
+      <module name="springMvcWebApp_BlackJack" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.tw.blackjack.model" />
+      <option name="MAIN_CLASS_NAME" value="com.tw.blackjack.model.PlayerTest" />
+      <option name="METHOD_NAME" value="should_be_12_point_after_get_heart_2_and_diamond_King" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -663,19 +794,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.CardTest" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.PokerInitTest.should_be_club_ace_of_first_card" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.PokerInitTest" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.PokerShuffleTest" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.PokerControllerTest" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.PokerShuffleTest" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.PokerControllerTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.All in springMvcWebApp_BlackJack" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.PokerControllerTest.should_get_shuffled_poker" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.PlayerTest.should_be_12_point_after_get_heart_2_and_diamond_King" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.PokerControllerTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.PokerShuffleTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.PokerInitTest" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.CardTest" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.PokerInitTest.should_be_club_ace_of_first_card" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.All in springMvcWebApp_BlackJack" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.PlayerTest.should_be_12_point_after_get_heart_2_and_diamond_King" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.PokerControllerTest.should_get_shuffled_poker" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.PokerShuffleTest" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.PokerControllerTest" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -710,27 +841,27 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1280" height="768" extended-state="0" />
+    <frame x="0" y="0" width="1276" height="768" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32943144" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32900432" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32900432" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3280255" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.234375" sideWeight="0.6724387" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32756132" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2452381" sideWeight="0.6735669" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32643312" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32900432" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -816,30 +947,28 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tw/blackjack/service/CardUtility.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="35" selection-start="599" selection-end="599" vertical-scroll-proportion="0.0">
+        <state line="11" column="62" selection-start="410" selection-end="410" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/mytheme/js/main.js">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/tw/blackjack/service/PokerInitTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="4" selection-start="864" selection-end="864" vertical-scroll-proportion="0.95137423" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/welcome.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="35" selection-start="727" selection-end="727" vertical-scroll-proportion="0.0">
+        <state line="14" column="28" selection-start="370" selection-end="370" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/com.google.guava/guava/15.0/source/36b6a585c0f0c63bd85fb04db0dcb7b217298956/guava-15.0-sources.jar!/com/google/common/collect/ImmutableMap.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tw/blackjack/model/Poker.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="252" column="16" selection-start="8916" selection-end="8916" vertical-scroll-proportion="0.93620414">
-          <folding />
-        </state>
+        <state line="9" column="52" selection-start="234" selection-end="234" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/src.zip!/java/util/List.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="234" column="12" selection-start="9674" selection-end="9674" vertical-scroll-proportion="0.33243242" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/tw/blackjack/model/CardTest.java">
@@ -849,60 +978,77 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/tw/blackjack/service/PokerShuffleTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="40" selection-start="1146" selection-end="1146" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/tw/blackjack/model/Card.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="49" selection-start="233" selection-end="233" vertical-scroll-proportion="0.3874092">
+        <state line="10" column="11" selection-start="237" selection-end="237" vertical-scroll-proportion="0.0">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/tw/blackjack/model/PokerInitTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="0" selection-start="1231" selection-end="1231" vertical-scroll-proportion="0.9084668">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/tw/blackjack/model/PokerShuffleTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="23" selection-start="1064" selection-end="1064" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tw/blackjack/model/CardUtility.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="5" selection-start="1178" selection-end="1178" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tw/blackjack/model/Poker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="37" selection-start="616" selection-end="616" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tw/blackjack/controller/PokerController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="0" selection-start="347" selection-end="347" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/tw/blackjack/controller/PokerControllerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="51" selection-start="831" selection-end="831" vertical-scroll-proportion="0.5881007">
+        <state line="19" column="58" selection-start="717" selection-end="717" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tw/blackjack/service/BlackJack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="20" selection-start="540" selection-end="540" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/tw/blackjack/model/PlayerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="0" selection-start="154" selection-end="154" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/tw/blackjack/model/BlackJackTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="27" selection-start="162" selection-end="166" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tw/blackjack/controller/PokerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="28" selection-start="1150" selection-end="1150" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tw/blackjack/model/Player.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="16" selection-start="440" selection-end="440" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/showFaceDownCards.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="107" column="0" selection-start="4335" selection-end="4335" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/welcome.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="111" column="0" selection-start="4568" selection-end="4568" vertical-scroll-proportion="0.59383756">
+          <folding />
         </state>
       </provider>
     </entry>

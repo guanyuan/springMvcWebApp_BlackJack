@@ -1,5 +1,6 @@
-package com.tw.blackjack.model;
+package com.tw.blackjack.service;
 
+import com.tw.blackjack.model.Poker;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
@@ -33,11 +34,12 @@ public class PokerInitTest {
 
     @Test
     public void should_be_right_shape_at_5_different_index() throws Exception {
-        assertThat(new Poker().takeCard(cardIndex).getShape(), is(shape));
+        assertThat(new Poker().takeOneCard(cardIndex).getShape(), is(shape));
     }
 
     @Test
     public void should_be_right_pointName_at_5_different_index() throws Exception {
-        assertThat(new Poker().takeCard(cardIndex).getPointName(), is(pointName));
-    }
+        assertThat(new Poker().takeOneCard(cardIndex).getPointName(), is(pointName));
+
+            }
 }

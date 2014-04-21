@@ -1,5 +1,6 @@
-package com.tw.blackjack.model;
+package com.tw.blackjack.service;
 
+import com.tw.blackjack.model.Poker;
 import org.junit.Test;
 
 import java.util.HashSet;
@@ -14,10 +15,10 @@ public class PokerShuffleTest {
         Set<String> shapeSet = new HashSet<>();
         Set<String> pointNameSet = new HashSet<>();
         Poker poker = new Poker();
-        poker.shuffleCards();
+        poker.shuffle();
         for (int i = 0; i <= 12; i++) {
-            shapeSet.add(poker.takeCard(i).getShape());
-            pointNameSet.add(poker.takeCard(i).getPointName());
+            shapeSet.add(poker.takeOneCard(i).getShape());
+            pointNameSet.add(poker.takeOneCard(i).getPointName());
         }
         assertThat((shapeSet.size() > 1 || pointNameSet.size() < 13), is(true));
     }
@@ -27,10 +28,10 @@ public class PokerShuffleTest {
         Set<String> shapeSet = new HashSet<>();
         Set<String> pointNameSet = new HashSet<>();
         Poker poker = new Poker();
-        poker.shuffleCards();
+        poker.shuffle();
         for (int i = 39; i <= 51; i++) {
-            shapeSet.add(poker.takeCard(i).getShape());
-            pointNameSet.add(poker.takeCard(i).getPointName());
+            shapeSet.add(poker.takeOneCard(i).getShape());
+            pointNameSet.add(poker.takeOneCard(i).getPointName());
         }
         assertThat((shapeSet.size() > 1 || pointNameSet.size() < 13), is(true));
     }

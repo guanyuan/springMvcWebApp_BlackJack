@@ -5,11 +5,7 @@
     <title>Black Jack Game</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <link href="./resources/css/bootstrap.min.css" rel="stylesheet">
-    <script src="http://code.jquery.com/jquery.js"></script>
-    <script src="./resources/js/bootstrap.min.js"></script>
-    <script src="./resources/js/main.js"></script>
 </head>
 
 <body>
@@ -37,20 +33,20 @@
                 </thead>
 
                 <tbody>
-                    <tr>
-                        <td style="height: 200px;">
-                        <span class="backCards", style="display:none">
-                        <img src="./resources/img/back.jpg" style="width: 100px;"/>
+                <tr>
+                    <td style="height: 200px;">
+                    <span class="backCards">
+                    <c:forEach var="card" items="${playerCards}">
                         <img src="./resources/img/back.jpg" style="width: 100px; margin-left: 10px;"/>
-                        </span>
+                    </c:forEach>
+                    </span>
 
-                        <span id="playerCards"></span>
-                        </td>
-                    </tr>
+                    <span id="playerCards"></span>
+                    </td>
+                </tr>
                 </tbody>
             </table>
         </div>
-
         <div class="col-md-3">
             <table align="right" class="table table-bordered" contenteditable="true" style="width: 150px;">
                 <thead>
@@ -58,19 +54,20 @@
                         <th style="background-color: rgb(238, 238, 238);">Scores</th>
                     </tr>
                 </thead>
+
                 <tbody>
-                    <tr>
-                        <td style="height: 200px;">
-                            <p><font size="2">Player</font></p>
-                            <div class="text-center">
-                                <p><font size="6"><strong><span  id="playerScore"></span></strong></font></p>
-                            </div>
-                            <p><font size="2">Host</font></p>
-                            <div class="text-center">
-                                <p><font size="6"><strong><span  id="hostScore"></span></strong></font></p>
-                            </div>
-                        </td>
-                    </tr>
+                <tr>
+                    <td style="height: 200px;">
+                        <p><font size="2">Player</font></p>
+                        <div class="text-center">
+                            <p><font size="6"><strong><span  id="playerScore"></span></strong></font></p>
+                        </div>
+                        <p><font size="2">Host</font></p>
+                        <div class="text-center">
+                            <p><font size="6"><strong><span  id="hostScore"></span></strong></font></p>
+                        </div>
+                    </td>
+                </tr>
                 </tbody>
             </table>
         </div>
@@ -86,9 +83,7 @@
                 <button id="hostStand" class="btn btn-default" type="button"> Stand</button>
             </div>
         </div>
-
         <div class="col-md-7">
-
             <table align="center" class="table table-bordered" contenteditable="true" style="width: 800px;">
                 <thead>
                     <tr>
@@ -98,9 +93,10 @@
                 <tbody>
                     <tr>
                         <td style="height: 200px;" >
-                        <span class="backCards", style="display:none">
-                            <img src="./resources/img/back.jpg" style="width: 100px;"/>
-                            <img src="./resources/img/back.jpg" style="width: 100px; margin-left: 10px;"/>
+                        <span class="backCards">
+                                  <c:forEach var="card" items="${hostCards}">
+                                      <img src="./resources/img/back.jpg" style="width: 100px; margin-left: 10px;"/>
+                                  </c:forEach>
                         </span>
                         <span id="hostCards"></span>
                         </td>
@@ -110,7 +106,6 @@
         </div>
     </div>
 
-    <div id="debugWindow"> </div>
     <div id="replayDiv"></div>
 </div>
 </body>

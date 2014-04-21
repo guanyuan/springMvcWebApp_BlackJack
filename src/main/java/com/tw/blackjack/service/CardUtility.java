@@ -1,4 +1,4 @@
-package com.tw.blackjack.model;
+package com.tw.blackjack.service;
 
 import com.google.common.collect.ImmutableList;
 import com.google.common.collect.ImmutableMap;
@@ -7,9 +7,9 @@ import java.util.List;
 import java.util.Map;
 
 public class CardUtility {
-    static final Map<String, Integer> POINT_MAP = createPointMap();
-    static final List<String> SHAPE_LIST = createShapeList();
-    static final List<String> POINT_NAME_LIST = createPointNameList();
+    public static final Map<String, Integer> POINT_MAP = createPointMap();
+    public static final List<String> SHAPE_LIST = createShapeList();
+    public static final List<String> POINT_NAME_LIST = createPointNameList();
 
     public CardUtility() {
     }
@@ -50,7 +50,7 @@ public class CardUtility {
         }
     }
 
-    static String upperFirstLetter(String string) {
+    public static String upperFirstLetter(String string) {
         return string.substring(0, 1).toUpperCase() +
                 string.substring(1).toLowerCase();
     }

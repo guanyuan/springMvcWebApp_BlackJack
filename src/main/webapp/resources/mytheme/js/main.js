@@ -4,67 +4,37 @@ $(document).ready(function(){
 
     var imgSuffix = '" /&gt" style="width: 100px; margin-left: 10px;"/&gt';
 
-    var cardPointArray = "${shuffledCardsPoints}";
-    var cardNameArray = "${shuffledCardsNames}";
+    var poker = "${shuffledPoker}";
 
     var index = 0;
     var playerPoints = 0;
     var hostPoints = 0;
 
-      $("#playerStart").click(function(){
-          $(".backCards").show();
-          playerPoints += (cardPointArray[0] + cardPointArray[1]);
-          hostPoints +=  (cardPointArray[2] + cardPointArray[3]);
+
+     $("#playerStart").click(function(){
+               $(".backCards").show();
+        playerPoints += (poker.takeCard(0).getPoint() + poker.takeCard(1).getPoint());
+          hostPoints +=  (poker.takeCard(2).getPoint() + poker.takeCard(3).getPoint());
           index += 4;
           $("#playerScore").text(playerPoints);
           $("#hostScore").text(hostPoints);
-      });
+          $("#playerStart").attr("disabled", true);
+           });
 
       $("#playerHit").click(function(){
-           //$("#playerCards").append('<img src="<c:url value="/resources/img/back.jpg" />" style="width: 100px; margin-left: 10px;"/>');
-            var imgSrc = imgPrefix + cardNameArray.get(index) + imgSuffix;
-            index++;
-            $("#playerCards").append(imgSrc);
-            playerPoints += cardPointArray.get(index);
-            $("#playerScore").text(playerPoints);
+            $("#playerCards").append('<img src="./resources/img/back.jpg" style="width: 100px; margin-left: 10px;"/>');
+
       });
 
       $("#hostHit").click(function(){
-            var imgSrc = imgPrefix + cardNameArray.get(index) + imgSuffix;
-            index++;
-            $("#hostCards").append(imgSrc);
-            hostPoints += cardPointArray.get(index);
-            $("#hostScore").text(hostPoints);
+                  $("#hostCards").append('<img src="./resources/img/back.jpg" style="width: 100px; margin-left: 10px;"/>');
             });
 
       $("#playerStand").click(function(){
-         $("#playerHit").attr("disabled", true);
+               $("#playerHit").attr("disabled", true);
       });
 
       $("#hostStand").click(function(){
-        $("#hostHit").attr("disabled", true);
-      });
-
-      $("#playerScore").change(function(){
-            var score = $("#playerScore").val();
-            if(score > 21) {
-                $("#hostScore").html("Host Wins");
-                $("#hostScore").css("color","red");
-                $("#replayDiv").html(<button id="replayBtn" type="button"> Replay</button>);
-            }
-      });
-
-      $("#hostScore").change(function(){
-            var score = $("#hostScore").val();
-            if(score > 21){}
-                $("#playScore").text("Player Wins");
-                $("#playScore").css("color","red");
-                $("#replayDiv").html("<button id="replayBtn" type="button"> Replay</button>");
-            }
-
-      });
-
-      $("#replayBtn").click(function(){
-             location.reload();
+              $("#hostHit").attr("disabled", true);
       });
     });
